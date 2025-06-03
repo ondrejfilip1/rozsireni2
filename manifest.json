@@ -1,0 +1,13 @@
+{
+    "name": "SPŠMB rozšíření - cvičení",
+    "version": "1.0.0",
+    "description": "wow!",
+    "manifest_version": 3,
+    "author": "Ondrej Filip",
+    "content_scripts": [
+        {
+          "matches": ["*://*.spsmb.cz/*"],
+          "js": ["main.js"]
+        }
+      ]
+}
